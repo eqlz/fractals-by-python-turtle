@@ -1,6 +1,6 @@
 import turtle
 
-# show two ways to draw Sierpinski triangle
+# two ways to draw Sierpinski triangle
 
 # First way draw Sierpinski triangle
 def sierpinski_tri(t, order, size):
