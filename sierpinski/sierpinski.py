@@ -2,7 +2,7 @@ import turtle
 
 # two ways to draw Sierpinski triangle
 
-# First way draw Sierpinski triangle
+# First way draw Sierpinski triangle, use line and angle
 def sierpinski_tri(t, order, size):
     # base case
     if order == 0:
@@ -39,7 +39,8 @@ window.bgcolor("white")
 sierpinski_tri(s, 4, 120)
 
 #################################
-# Second way to draw a Sierpinski triangle
+# Second way to draw a Sierpinski triangle, use x-y coordinate position
+
 # Credits: This code was written by editing the code from http://www.lpb-riannetrujillo.com/blog/python-fractal/
 
 myPen = turtle.Turtle()
