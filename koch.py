@@ -1,8 +1,6 @@
 import turtle
 
 # draw Koch fractal and Koch snowflakes
-
-# draw Koch fractal and Koch snowflakes
 def koch(t, order, size):
     # base case
     if order == 0:
